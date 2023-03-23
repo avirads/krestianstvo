@@ -24,7 +24,7 @@ import { io } from "socket.io-client";
 
             const globalConfig = localStorage.getItem("krestianstvo");
             const conf = globalConfig ? JSON.parse(globalConfig) : {
-                defaultReflectorHost : 'https://lcs-reflector.vercel.app' 
+                defaultReflectorHost : 'https://lcs-reflector.onrender.com' 
                 //'https://time.livecoding.space'
             }
 
